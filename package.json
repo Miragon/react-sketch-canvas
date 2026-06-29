@@ -38,7 +38,7 @@
     "install:example": "yarn link:lib && cd example && yarn && yarn link react-sketch-canvas",
     "link:lib": "yarn build:dev && yarn unlink; yarn link",
     "lint": "dts lint src",
-    "prepare": "dts build",
+    "prepare": "cross-env NODE_ENV=production dts build",
     "release:beta": "yarn test && cross-env NODE_ENV=production release-it --preRelease=beta",
     "release:notest": "cross-env NODE_ENV=production release-it",
     "release": "yarn test && cross-env NODE_ENV=production release-it",
