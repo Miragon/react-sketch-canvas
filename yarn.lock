@@ -10703,6 +10703,9 @@ __metadata:
     typescript: "npm:^4.6.2"
   peerDependencies:
     react: ">=16.8"
+  dependenciesMeta:
+    cypress:
+      built: false
   languageName: unknown
   linkType: soft
 

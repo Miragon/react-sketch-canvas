@@ -111,5 +111,10 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "packageManager": "yarn@4.18.1"
+  "packageManager": "yarn@4.18.1",
+  "dependenciesMeta": {
+    "cypress": {
+      "built": false
+    }
+  }
 }
