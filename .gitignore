@@ -11,3 +11,4 @@ coverage/
 jest-coverage/
 cypress-coverage/
 reports/
+.yarn/install-state.gz
